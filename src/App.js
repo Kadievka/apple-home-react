@@ -83,7 +83,7 @@ function App() {
           <div className="HorizontalLine"></div>
           <div className="FooterLines">
             <Grid container direction="row" justify="space-between" alignItems="flex-start">
-              <Grid item xs={2}>
+              <Grid item xs={2} className="FooterParagraph">
                 <b>Shop and Learn</b>
                 <p><a className="FooterLinks" href="/mac">Mac</a></p>
                 <p><a className="FooterLinks" href="/ipad">iPad</a></p>
@@ -97,7 +97,7 @@ function App() {
                 <p><a className="FooterLinks" href="/accesories">Accesories</a></p>
                 <p><a className="FooterLinks" href="/gif-cards">Gif Cards</a></p>
               </Grid>
-              <Grid item xs={2}>
+              <Grid item xs={2} className="FooterParagraph">
                 <b>Services</b>
                 <p><a className="FooterLinks" href="/apple-music">Apple Music</a></p>
                 <p><a className="FooterLinks" href="/apple-news">Apple News+</a></p>
@@ -112,20 +112,65 @@ function App() {
                 <p><a className="FooterLinks" href="/apple-account">Apple Store Account</a></p>
                 <p><a className="FooterLinks" href="/icloud">iCloud.com</a></p>
               </Grid>
-              <Grid item xs={2}>
+              <Grid item xs={2} className="FooterParagraph">
                 <b>Apple Store</b>
+                <p><a className="FooterLinks" href="/store">Find a Store</a></p>
+                <p><a className="FooterLinks" href="/shop">Shop Online</a></p>
+                <p><a className="FooterLinks" href="/bar">Genius Bar</a></p>
+                <p><a className="FooterLinks" href="/news">Today at Apple</a></p>
+                <p><a className="FooterLinks" href="/apple-camp">Apple Camp</a></p>
+                <p><a className="FooterLinks" href="/field-trip">Field Trip</a></p>
+                <p><a className="FooterLinks" href="/store">Apple Store App</a></p>
+                <p><a className="FooterLinks" href="/store">Refurbished and Clearance</a></p>
+                <p><a className="FooterLinks" href="/payment-plan">Financing</a></p>
+                <p><a className="FooterLinks" href="/trade-in">Apple Trade In</a></p>
+                <p><a className="FooterLinks" href="/store">Order Status</a></p>
+                <p><a className="FooterLinks" href="/shop">Shopping Help</a></p>
               </Grid>
-              <Grid item xs={2}>
+              <Grid item xs={2} className="FooterParagraph">
                 <b>For Business</b>
+                <p><a className="FooterLinks" href="/business">Apple and Business</a></p>
+                <p><a className="FooterLinks" href="/business">Shop for Business</a></p>
+                <br/>
+                <b>For Education</b>
+                <p><a className="FooterLinks" href="/education">Apple and Education</a></p>
+                <p><a className="FooterLinks" href="/education">Shop for K-12</a></p>
+                <p><a className="FooterLinks" href="/education">Shop for College</a></p>
+                <br/>
+                <b>For Healthcare</b>
+                <p><a className="FooterLinks" href="/healthcare">Apple in Healthcare</a></p>
+                <p><a className="FooterLinks" href="/healthcare">Health on Apple Watch</a></p>
+                <p><a className="FooterLinks" href="/healthcare">Health Records on iPhone</a></p>
+                <br/>
+                <b>For Goverment</b>
+                <p><a className="FooterLinks" href="/shop">Shop for Goverment</a></p>
+                <p><a className="FooterLinks" href="/shop">Shop for Veterans and Military</a></p>
               </Grid>
-              <Grid item xs={2}>
+              <Grid item xs={2} className="FooterParagraph">
                 <b>Apple Values</b>
+                <p><a className="FooterLinks" href="/accesibility">Accesibility</a></p>
+                <p><a className="FooterLinks" href="/education">Education</a></p>
+                <p><a className="FooterLinks" href="/enviroment">Enviroment</a></p>
+                <p><a className="FooterLinks" href="/diversity">Inclusion and Diversity</a></p>
+                <p><a className="FooterLinks" href="/privacy">Privacy</a></p>
+                <p><a className="FooterLinks" href="/privacy">Supplier Responsibility</a></p>
+                <br/>
+                <b>About Apple</b>
+                <p><a className="FooterLinks" href="/shop">Newsroom</a></p>
+                <p><a className="FooterLinks" href="/shop">Apple Leadership</a></p>
+                <p><a className="FooterLinks" href="/job">Job Opportunities</a></p>
+                <p><a className="FooterLinks" href="/shop">Investors</a></p>
+                <p><a className="FooterLinks" href="/apple-events">Events</a></p>
+                <p><a className="FooterLinks" href="/contact">Contact Apple</a></p>
+              </Grid>
+              <Grid item xs={12}>
+                <p className="MoreWays">More ways to shop: <a href="/retail">Find an Apple Store</a> or <a href="/retail">other retailer</a> near you. Or call 1-800-MY-APPLE.</p>
               </Grid>
             </Grid>
           </div>
           <div className="HorizontalLine"></div>
           <div className="FooterCopyright">
-
+            <p>Copyright © 2020 Apple Inc. All rights reserved.</p>
           </div>
         </footer>
       </div>
