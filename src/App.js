@@ -7,6 +7,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import LocalMallIcon from '@material-ui/icons/LocalMall';
 import AppleIcon from '@material-ui/icons/Apple';
 import Grid from '@material-ui/core/Grid';
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
 function App() {
   return (
@@ -45,22 +46,34 @@ function App() {
 
       <div className="Page">
 
-        <div className="Intro">
-          <div className="AllWidthComponent"></div>
-          <div className="AllWidthComponent"></div>
-          <div className="AllWidthComponent"></div>
+        <div className="BlueMessage">
+          <a href="/screening">
+            Evaluate COVID‑19 symptoms and understand next steps
+            <ArrowForwardIosIcon style={{'fontSize': '10px', 'paddingLeft': '0.5em', 'position': 'relative', 'bottom': '-1.4px'}}/>
+          </a>
         </div>
 
-        <div className="ServicesAlbum">
-          <div className="TwoComponentsRow">
-            <div className="HalfWidthComponent"></div>
-          </div>
-          <div className="TwoComponentsRow">
-            <div className="HalfWidthComponent"></div>
-          </div>
-          <div className="TwoComponentsRow">
-            <div className="HalfWidthComponent"></div>
-          </div>
+        <div className="WhiteMessage">
+          <p style={{'margin': '0', 'padding': '0'}}><a href="/us/shop/goto/shop" style={{'margin': '0', 'padding': '0'}}>Shop online</a> and get free, no‑contact delivery, Specialist help and more.</p>
+        </div>
+
+        <div className="AllWidthComponent">
+          <a href="/"><img src="/images/iPhone-SE.PNG" alt="iPhone-SE"/></a>
+        </div>
+        <div className="AllWidthComponent">
+          <a href="/"><img src="/images/iPhone-11.PNG" alt="iPhone-11"/></a>
+        </div>
+        <div className="AllWidthComponent">
+          <a href="/"><img src="/images/iPad-Pro.PNG" alt="iPad-Pro"/></a>
+        </div>
+        <div className="AllWidthComponent">
+          <a href="/"><img src="/images/WWWDC20.PNG" alt="WWWDC20"/></a>
+        </div>
+        <div className="AllWidthComponent">
+          <a href="/"><img src="/images/WATCH.PNG" alt="WATCH"/></a>
+        </div>
+        <div className="AllWidthComponent" style={{'marginLeft': '10px'}}>
+          <a href="/"><img src="/images/Acarde.PNG" alt="Acarde"/></a>
         </div>
 
       </div>

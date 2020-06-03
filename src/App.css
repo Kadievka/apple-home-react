@@ -1,3 +1,60 @@
+.AllWidthComponent{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.WhiteMessage{
+  background-color: #fbfbfd;
+  color: #1d1d1f;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  padding-top: 12px;
+  padding-right: 0px;
+  padding-bottom: 12px;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.WhiteMessage>p>a{
+  color: #06c;
+  text-decoration: none;
+}
+
+.WhiteMessage>p>a:hover{
+  color: #06c;
+  text-decoration: underline;
+}
+
+.BlueMessage{
+  background-color: #0071E3;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 12px;
+  padding-right: 0px;
+  padding-bottom: 12px;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.BlueMessage>a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.BlueMessage>a:hover{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
 .CountryFlag{
  width: 1.2em;
  border: solid #757577 1px;
@@ -79,7 +136,7 @@
   font-size: 0.8em;
   color: rgba(245, 245, 247, 0.9);
   width: 100%;
-  height: 52px;
+  height: 50px;
   display: flex;
   justify-content: center;
 }
