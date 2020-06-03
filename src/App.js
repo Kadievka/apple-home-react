@@ -11,35 +11,35 @@ import Grid from '@material-ui/core/Grid';
 function App() {
   return (
     <MuiThemeProvider>
-
+      
       <div className="Navigation">
-        <header>
-        <AppBar
-          title={false}
-          showMenuIconButton={false}
-          style={{
-            'background-color': 'transparent',
-            'color': 'rgb(245, 245, 247)',
-            'height': '52px'
-          }}
-        >
-          <a href="/search" className="NavigationItem">
-            <AppleIcon style={{'fontSize': '2em'}}/>
-          </a>
-          <a href="/mac" className="NavigationItem">Mac</a>
-          <a href="/ipad" className="NavigationItem">iPad</a>
-          <a href="/iphone" className="NavigationItem">iPhone</a>
-          <a href="/watch" className="NavigationItem">Watch</a>
-          <a href="/tv" className="NavigationItem">TV</a>
-          <a href="/music" className="NavigationItem">Music</a>
-          <a href="/support" className="NavigationItem">Support</a>
-          <a href="/search" className="NavigationItem">
-            <SearchIcon style={{'fontSize': '2em'}}/>
-          </a>
-          <a href="/shop" className="NavigationItem">
-            <LocalMallIcon style={{'fontSize': '2em'}}/>
-          </a>
-        </AppBar>
+        <header className="NavigationHeader">
+          <AppBar
+            title={false}
+            showMenuIconButton={false}
+            style={{
+              'background-color': 'rgba(0, 0, 0, 0.8)',
+              'color': 'rgb(245, 245, 247)',
+              'height': '50px'
+            }}
+          >
+            <a href="/search" className="NavigationItem">
+              <AppleIcon style={{'fontSize': '2em'}}/>
+            </a>
+            <a href="/mac" className="NavigationItem">Mac</a>
+            <a href="/ipad" className="NavigationItem">iPad</a>
+            <a href="/iphone" className="NavigationItem">iPhone</a>
+            <a href="/watch" className="NavigationItem">Watch</a>
+            <a href="/tv" className="NavigationItem">TV</a>
+            <a href="/music" className="NavigationItem">Music</a>
+            <a href="/support" className="NavigationItem">Support</a>
+            <a href="/search" className="NavigationItem">
+              <SearchIcon style={{'fontSize': '2em'}}/>
+            </a>
+            <a href="/shop" className="NavigationItem">
+              <LocalMallIcon style={{'fontSize': '2em'}}/>
+            </a>
+          </AppBar>
         </header>
       </div>
 
@@ -168,9 +168,17 @@ function App() {
               </Grid>
             </Grid>
           </div>
-          <div className="HorizontalLine"></div>
+          <div className="HorizontalLine" style={{'marginTop':'0.5em','marginBottom': '0'}}></div>
           <div className="FooterCopyright">
-            <p>Copyright © 2020 Apple Inc. All rights reserved.</p>
+            <Grid container direction="row">
+              <p style={{'marginRight': '3em'}}>Copyright © 2020 Apple Inc. All rights reserved.</p>
+              <p style={{'marginLeft': '1.5em'}}><a className="FooterLinks" href="/privacy">Privacy Policy</a></p>
+              <p style={{'marginLeft': '1.5em'}}><a className="FooterLinks" href="/privacy">Terms of Use</a></p>
+              <p style={{'marginLeft': '1.5em'}}><a className="FooterLinks" href="/privacy">Sales and Refund</a></p>
+              <p style={{'marginLeft': '1.5em'}}><a className="FooterLinks" href="/privacy">Legal</a></p>
+              <p style={{'marginLeft': '1.5em'}}><a className="FooterLinks" href="/privacy">Site Map</a></p>
+              <p style={{'marginLeft': '18em'}}><a className="FooterLinks" href="/choose-country-regionn"><img alt="USA" src="/images/bandera.png" className="CountryFlag"/>  United States</a></p>
+            </Grid>
           </div>
         </footer>
       </div>
