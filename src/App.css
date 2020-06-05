@@ -142,7 +142,7 @@
 }
 
 .NavigationHeader{
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 1);
   position: fixed;
   width: 100%;
   padding-right: 18em;
