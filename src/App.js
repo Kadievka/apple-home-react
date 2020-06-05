@@ -58,22 +58,22 @@ function App() {
         </div>
 
         <div className="AllWidthComponent">
-          <a href="/"><img src="https://github.com/Kadievka/apple-home-react/blob/master/public/images/iPhone-SE.PNG" alt="iPhone-SE"/></a>
+          <a href="/"><img src="https://github.com/Kadievka/apple-home-react/tree/master/public/images/iPhone-SE.PNG" alt="iPhone-SE"/></a>
         </div>
         <div className="AllWidthComponent">
-          <a href="/"><img src="https://github.com/Kadievka/apple-home-react/blob/master/public/images/iPhone-11.PNG" alt="iPhone-11"/></a>
+          <a href="/"><img src="https://github.com/Kadievka/apple-home-react/tree/master/public/images/iPhone-11.PNG" alt="iPhone-11"/></a>
         </div>
         <div className="AllWidthComponent">
-          <a href="/"><img src="https://github.com/Kadievka/apple-home-react/blob/master/public/images/iPad-Pro.PNG" alt="iPad-Pro"/></a>
+          <a href="/"><img src="https://github.com/Kadievka/apple-home-react/tree/master/public/images/iPad-Pro.PNG" alt="iPad-Pro"/></a>
         </div>
         <div className="AllWidthComponent">
-          <a href="/"><img src="https://github.com/Kadievka/apple-home-react/blob/master/public/images/WWWDC20.PNG" alt="WWWDC20"/></a>
+          <a href="/"><img src="https://github.com/Kadievka/apple-home-react/tree/master/public/images/WWWDC20.PNG" alt="WWWDC20"/></a>
         </div>
         <div className="AllWidthComponent">
-          <a href="/"><img src="https://github.com/Kadievka/apple-home-react/blob/master/public/images/WATCH.PNG" alt="WATCH"/></a>
+          <a href="/"><img src="https://github.com/Kadievka/apple-home-react/tree/master/public/images/WATCH.PNG" alt="WATCH"/></a>
         </div>
         <div className="AllWidthComponent" style={{'marginLeft': '10px'}}>
-          <a href="/"><img src="https://github.com/Kadievka/apple-home-react/blob/master/public/images/Acarde.PNG" alt="Acarde"/></a>
+          <a href="/"><img src="https://github.com/Kadievka/apple-home-react/tree/master/public/images/Acarde.PNG" alt="Acarde"/></a>
         </div>
 
       </div>
@@ -190,7 +190,7 @@ function App() {
               <p style={{'marginLeft': '1.5em'}}><a className="FooterLinks" href="/privacy">Sales and Refund</a></p>
               <p style={{'marginLeft': '1.5em'}}><a className="FooterLinks" href="/privacy">Legal</a></p>
               <p style={{'marginLeft': '1.5em'}}><a className="FooterLinks" href="/privacy">Site Map</a></p>
-              <p style={{'marginLeft': '18em'}}><a className="FooterLinks" href="/choose-country-regionn"><img alt="USA" src="https://github.com/Kadievka/apple-home-react/blob/master/public/images/bandera.png" className="CountryFlag"/>  United States</a></p>
+              <p style={{'marginLeft': '18em'}}><a className="FooterLinks" href="/choose-country-regionn"><img alt="USA" src="https://github.com/Kadievka/apple-home-react/tree/master/public/images/bandera.png" className="CountryFlag"/>  United States</a></p>
             </Grid>
           </div>
         </footer>
