@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/apple-home-react/static/css/main.7b35214d.chunk.css",
+    "main.css": "/apple-home-react/static/css/main.5c6027e2.chunk.css",
     "main.js": "/apple-home-react/static/js/main.06251d6f.chunk.js",
     "main.js.map": "/apple-home-react/static/js/main.06251d6f.chunk.js.map",
     "runtime-main.js": "/apple-home-react/static/js/runtime-main.e693e4d0.js",
@@ -8,15 +8,15 @@
     "static/js/2.e7161071.chunk.js": "/apple-home-react/static/js/2.e7161071.chunk.js",
     "static/js/2.e7161071.chunk.js.map": "/apple-home-react/static/js/2.e7161071.chunk.js.map",
     "index.html": "/apple-home-react/index.html",
-    "precache-manifest.be9708f8b45d4e7eed264f9495ff070c.js": "/apple-home-react/precache-manifest.be9708f8b45d4e7eed264f9495ff070c.js",
+    "precache-manifest.8e26941a503361fce021a8aedefe45f1.js": "/apple-home-react/precache-manifest.8e26941a503361fce021a8aedefe45f1.js",
     "service-worker.js": "/apple-home-react/service-worker.js",
-    "static/css/main.7b35214d.chunk.css.map": "/apple-home-react/static/css/main.7b35214d.chunk.css.map",
+    "static/css/main.5c6027e2.chunk.css.map": "/apple-home-react/static/css/main.5c6027e2.chunk.css.map",
     "static/js/2.e7161071.chunk.js.LICENSE.txt": "/apple-home-react/static/js/2.e7161071.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e693e4d0.js",
     "static/js/2.e7161071.chunk.js",
-    "static/css/main.7b35214d.chunk.css",
+    "static/css/main.5c6027e2.chunk.css",
     "static/js/main.06251d6f.chunk.js"
   ]
 }
